@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: lab41
+  host: localhost
+  pool: 5
+  userame: postgres
+  password: 198ekoliceym
+

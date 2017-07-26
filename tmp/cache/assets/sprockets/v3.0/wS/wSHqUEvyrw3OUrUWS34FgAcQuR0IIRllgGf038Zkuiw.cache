@@ -1,0 +1,16 @@
+I"ö(function() {
+  this.AboutCtrl = function(scope) {
+    this.scope = scope;
+    return $scope.entries = [
+      {
+        name: "wmz"
+      }, {
+        name: "vrabets@mail.ua"
+      }, {
+        name: "Lab4.1"
+      }
+    ];
+  };
+
+}).call(this);
+:ET

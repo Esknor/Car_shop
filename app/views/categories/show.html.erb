@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id:</strong>
+  <%= @category.id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @category.name %>
+</p>
+
+<p>
+  <strong>Parent:</strong>
+  <%= @category.parent.name unless @category.parent.nil? %>
+</p>
+
+<%= link_to 'Edit', edit_category_path(@category), class: "btn btn-md btn-warning" %>
+<%= link_to 'Back', categories_path, class: "btn btn-md btn-default" %>
